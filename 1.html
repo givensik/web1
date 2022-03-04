@@ -1,99 +1,25 @@
 <!doctype html>
 <html>
-
 <head>
-  <title> Web - HTML </title>
-  <meta charset ="utf-8">
+  <title>WEB1 - HTML</title>
+  <meta charset="utf-8">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <script src="colors.js"></script>
 </head>
-
 <body>
-  <h1><a href ="index.html" target = "blank_">WEB</a></h1>
+  <h1><a href="index.html">WEB</a></h1>
+  <input id="night_day" type="button" value="night" onclick="
+    nightDayHandler(this);
+  ">
   <ol>
-    <li><a href ="1.html" target = "blank_">HTML</a><br></li>
-    <li><a href ="2.html" target = "blank_">CSS</a><br></li>
-    <li><a href ="3.html" target = "blank_">JavaScript</a><br></li>
+    <li><a href="1.html">HTML</a></li>
+    <li><a href="2.html">CSS</a></li>
+    <li><a href="3.html">JavaScript</a></li>
   </ol>
   <h2>HTML</h2>
-  <p><a href ="https://www.w3.org/TR/2011/WD-html5-20110405/" target ="blank_" title ="html5 specification" >Hypertext Markup Language (HTML)</a>
-    h1~h6  : 문자 크기<br>
-
-    u : underline
-    br :  띄워 쓰기
-
-    p : 단락 만들기<br>
-
-    p 태그에 css를 이용하여 단락간 여백의 크기 정하기<br>
-
-    성분 :style=“margin - top : 40px” 내용 단락 윗 부분 여백의 크기가 40	= 여백, =단락 위쪽<br>
-
-
-    이미지 태그 : img<br>
-
-    속성 : 태그의 이름만으로 해결할 수 없는 기능들을 추가한다.<br>
-
-    img src = “이미지의 주소” width = “100%”
-
-    여기서 src = “이미지의 주소”, width = “100%”<br>
-    이렇게 두개가 ‘속성(Attribute)’이다. <br>
-
-    이미지 주소 찾기 좋은 사이트 : <a href ="www.unsplash.com" target ="blank_"> unsplash.com</a> <br>
-
-    [부모 자식과 목록]<br>
-    parent<br>
-	     children /children<br>
-    /parent<br>
-
-    parent와 children은 어떤 종류의 태그이냐에 따라서로 바뀔 수 있다<br>
-
-    [기본 리스트 만들기 (숫자 x)]<br>
-    - ul = 부모 태그 (unordered list)<br>
-    - li = 자식 태그<br>
-
-    [숫자 리스트 만들기]<br>
-    - ol = 부모 태그 (ordered list)<br>
-    - li = 자식 태그<br>
-
-    이 두개는 부모태그는 반드시 자식태그를 가지고, 자식태그는 부모태그를 가진다.<br>
-
-    [테이블(표)]<br>
-      table <br>
-	     tr <br>
-		     td <br>
-		     /td<br>
-	     /tr<br>
-	     tr<br>
-		      td<br>
-		      /td<br>
-	     /tr<br>
-      /table<br>
-
-
-  [제목 태그]<br>
-  그 페이지 이름을 정하는 태그<br>
-  title , /title<br>
-
-
-  [한글 쓰는 법]<br>
-
-  태그 : meta<br>
-  속성 : charset =“utf-8”<br>
-  -> meta charset = “utf-8” : utf-8이라는 방식으로 저장되어있다<br>
-
-  [태그들 정렬]<br>
-  이처럼 본문을 설명하는 태그들을 head 태그로 묶고,<br>
-  본문을 body 태그로 묶는다<br>
-  head 태그와 body 태그를 감싸는 태그를 html이라고 한다.<br>
-
-  html을 쓰기 전에 그 위에 <!doctype html><br>
-
-
-  [링크 걸기]<br>
-  가장 중요한 태그<br>
-  a, /a<br>
-  그 안에 쓰는 속성<br>
-  href = “ 링크타고 들어가면 갈 주소”<br>
-  target = “blank_” : 이 속성을 넣으면 그 하이퍼링크를 누르면 새 페이지 생성</p><br>
-  <img src=coding.jpg width ="100%"><br>
-  </body>
-
+  <p><a href="https://www.w3.org/TR/html5/" target="_blank" title="html5 speicification">Hypertext Markup Language (HTML)</a> is the standard markup language for <strong>creating <u>web</u> pages</strong> and web applications.Web browsers receive HTML documents from a web server or from local storage and render them into multimedia web pages. HTML describes the structure of a web page semantically and originally included cues for the appearance of the document.
+  <img src="coding.jpg" width="100%">
+  </p><p style="margin-top:45px;">HTML elements are the building blocks of HTML pages. With HTML constructs, images and other objects, such as interactive forms, may be embedded into the rendered page. It provides a means to create structured documents by denoting structural semantics for text such as headings, paragraphs, lists, links, quotes and other items. HTML elements are delineated by tags, written using angle brackets.
+  </p>
+</body>
 </html>
